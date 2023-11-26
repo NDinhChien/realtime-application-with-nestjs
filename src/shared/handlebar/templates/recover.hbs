@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recover your password</title>
+</head>
+<body>
+  <h1>Hi {{username}}!</h1>
+  <p>Click this URL to change your password:
+    <a href="{{url}}/user/password/{{code}}">
+      {{url}}/user/password/{{code}}
+    </a>
+  </p>  
+  <p>This code will expire after {{expiration}}</p>
+  <p>Note: This code can be used for either password recovery or account registration </p>
+</body>
+</html>
